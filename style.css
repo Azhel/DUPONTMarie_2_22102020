@@ -1,4 +1,11 @@
 body{
 
 	font-family: 'Raleway', sans-serif;
+	padding: 35px 35px;
+	background-color: silver;
 } 
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
