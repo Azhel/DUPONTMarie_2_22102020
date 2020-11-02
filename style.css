@@ -9,3 +9,12 @@ header{
 	display: flex;
 	justify-content: space-between;
 }
+
+ul#menu{
+	display: flex;
+}
+
+li{
+	list-style-type: none;
+	padding-left: 50px
+}
