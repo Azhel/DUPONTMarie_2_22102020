@@ -2,7 +2,7 @@ body{
 
 	font-family: 'Raleway', sans-serif;
 	padding: 35px 35px;
-	background-color: silver;
+	background-color: white;
 } 
 
 header{
@@ -17,4 +17,34 @@ ul#menu{
 li{
 	list-style-type: none;
 	padding-left: 50px
+}
+
+#hebergements{
+	background-color: silver;
+}
+
+#populaires{
+	background-color: silver;
+}
+
+#section{
+	display: flex;
+	/*justify-content: space-around;*/
+}
+.ch{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.hotel{
+	width: 30%;
+	height: 40%;
+	background-color: white;
+}
+
+.hotel img{
+	width: 90%;
+	height: 60%;
+	border-radius: 20px 20px 0 0;
+	padding: 2%;
 }
