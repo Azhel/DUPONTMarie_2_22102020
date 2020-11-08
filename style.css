@@ -21,30 +21,68 @@ li{
 
 #hebergements{
 	background-color: silver;
+	margin: 20px;
+	flex: 2;
 }
 
 #populaires{
-	background-color: silver;
+	background-color: green;
+	flex: 1;
+	margin-right: 20px;
 }
 
 #section{
 	display: flex;
-	/*justify-content: space-around;*/
+	justify-content: space-around;
+	background-color: white;
+/*	align-items: center;*/
 }
 .ch{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
 .hotel{
-	width: 30%;
-	height: 40%;
+	margin: 10px 5px;
+	/*width: 30%;
+	height: 40%;*/
 	background-color: white;
+	width: 360px;
+	height: 120px;
 }
 
 .hotel img{
-	width: 90%;
-	height: 60%;
+	width: 100%;
+	height: 100%;
 	border-radius: 20px 20px 0 0;
 	padding: 2%;
+	object-fit: cover;
+}
+
+.populaires{
+	width: 30%;
+	height: 40%;
+	background-color: white;
+	display: flex;
+	justify-content: space-content;
+	align-content: center;
+}
+
+.populaires img{
+	border-radius: 20px 20px 0 0;
+	padding: 0;
+}
+
+.fav{
+	background-color: white;
+	margin: 10px 2px 20px 2px;
+	border-radius: 20px;
+}
+
+.fav img{
+	width: 120px;
+	height: 120px;
 }
