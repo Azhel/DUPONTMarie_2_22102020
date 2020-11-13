@@ -14,9 +14,12 @@ ul#menu{
 	display: flex;
 }
 
+#menu li{
+	padding-left: 50px
+}
+
 li{
 	list-style-type: none;
-	padding-left: 50px
 }
 
 #hebergements{
@@ -47,12 +50,15 @@ li{
 
 .hotel{
 	margin: 10px 5px;
-	/*width: 30%;
-	height: 40%;*/
+	width: 30%;
+	/*height: 40%;*/
 	background-color: white;
-	width: 360px;
-	height: 120px;
+/*	width: 360px;
+	height: 120px;*/
+	display: flex;
+	flex-direction: column;
 }
+
 
 .hotel img{
 	width: 100%;
@@ -80,9 +86,33 @@ li{
 	background-color: white;
 	margin: 10px 2px 20px 2px;
 	border-radius: 20px;
+	display: flex;
 }
 
 .fav img{
 	width: 120px;
 	height: 120px;
 }
+
+.navigation{
+	background-color: pink;
+}
+
+footer{
+	display: flex;
+	justify-content: space-around;
+}
+
+.navigation ul{
+	padding-left: 0px;
+}
+
+.navigation li{
+	padding-left: 0px;
+	padding-bottom: 20px;
+}
+/*nav{
+	display: flex;
+	justify-content: center;
+	align-content: flex-end;
+}*/
