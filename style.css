@@ -22,23 +22,49 @@ li{
 	list-style-type: none;
 }
 
+#btn{
+	background-color: #0065FC;
+	border: 1px solid #0065FC;
+	border-radius: 0px 10px 10px 0px;
+	color: white;
+}
+
+#rechercher{
+	display: flex;
+}
+
+.fa-map-marker-alt{
+	border: 1px solid silver;
+	background-color: silver;
+	border-radius: 10px 0px 0px 10px;
+	width: 30px;
+	text-align: center;
+}
+
+h2{
+	padding-left: 40px;
+}
+
 #hebergements{
 	background-color: silver;
-	/*margin: 20px;*/
+	margin-right: 30px;
 	flex: 2;
+	padding-bottom: 50px;
+	border-radius: 20px;
 }
 
 #populaires{
 	background-color: green;
 	flex: 1;
-	margin-right: 20px;
+	margin-right: 30px;
+	border-radius: 20px;
 }
 
 #section{
 	display: flex;
 	justify-content: space-around;
 	background-color: white;
-/*	align-items: center;*/
+
 }
 .ch{
 	display: flex;
@@ -51,13 +77,11 @@ li{
 .hotel{
 	margin: 10px 5px;
 	width: 30%;
-	/*height: 40%;*/
 	background-color: white;
-	padding: 10px 10px 10px 10px;
-/*	width: 360px;
-	height: 120px;*/
+	padding: 5px 5px 5px 5px;
 	display: flex;
 	flex-direction: column;
+	border-radius: 20px;
 }
 
 
@@ -82,16 +106,23 @@ li{
 	padding: 0;
 }
 
+/*.desc{
+	display: flex;
+	align-items: center;
+} peut-être ? 
+*/
+
 .fav{
 	background-color: white;
-	margin: 10px 2px 20px 2px;
+	margin: 30px 50px 20px 50px;
 	border-radius: 20px;
 	display: flex;
+	padding: 5px 5px 5px 5px;
 }
 
 .fav img{
-	width: 120px;
-	height: 120px;
+	width: 160px;
+	height: 150px;
 	border-radius: 20px 0px 0px 20px;
 }
 
@@ -99,10 +130,6 @@ li{
 	background-color: pink;
 }
 
-footer{
-	display: flex;
-	justify-content: space-around;
-}
 
 .navigation ul{
 	padding-left: 0px;
@@ -125,27 +152,38 @@ footer{
 #activitées{
 	display: flex;
 	flex-wrap: wrap;
-}/*à réfléchir pour le placer*/
+}
+
 
 
 .act img{
-	width: 120px;
-	height: 120px;
+	width: 250px;
+	height: 150px;
 	border-radius: 20px 20px 0px 0px;
 }
 
 .activ img{
-	width: 400px;
-	height: 550px;
+	width: 350px;
+	height: 450px;
 	border-radius: 20px 20px 0px 0px;
 }
 
 #activitées1{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;	
+}
+
+.act{
+	display: flex;
+	flex-direction: column;
 }
 
 #activitées2{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+}
+
+footer{
+	display: flex;
+	justify-content: space-around;
 }
