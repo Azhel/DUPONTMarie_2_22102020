@@ -32,15 +32,23 @@
 				placeholder="Marseille, France" 
 				aria-label="Rechercher parmis le contenue du site">
 				<input id="btn" type="submit" value="Rechercher">
-			</div>
+			</div><br>
 		</form>
 	
-	<p>Filtres
-		<i class="fas fa-money-bill-wave"></i>Economique
-		<i class="fas fa-child"></i>Familial
-		<i class="fas fa-heart"></i>Romantique
-		<i class="fas fa-dog"></i>Animaux autorisés
-	</p>
+	<div id="filtrage"><p>Filtres
+		<div class="filtre">
+			<i class="fas fa-money-bill-wave"></i>Economique
+		</div>
+		<div class="filtre">
+			<i class="fas fa-child"></i>Familial
+		</div>
+		<div class="filtre">
+			<i class="fas fa-heart"></i>Romantique
+		</div>
+		<div class="filtre">
+			<i class="fas fa-dog"></i>Animaux autorisés
+		</div>	
+	</div></p>
 	
 	<div id="section">
 		<section id="hebergements">
@@ -50,12 +58,15 @@
 					<img src="img/hébergements5.jpg" alt="auberge_de_la_cannebière"/>
 					<h3>Auberge de la Cannebière</h3>
 					<p>Nuit à partir de 25€</p>
-					<i class="fas fa-star"></br></i>
-					<i class="fas fa-star"></br></i>
-					<i class="fas fa-star"></br></i>
-					<i class="fas fa-star"></br></i>
-					<i class="fas fa-star"></br></i>
-					<i class="fas fa-star"></br></i>
+					<div class="nuit">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					
+					
 				</div>
 				<div class="hotel">
 					<img src="img/hébergements.jpg" alt="hôtel_du_port"/>
@@ -155,7 +166,7 @@
 	</div>
 
 	<aside>
-		<h2>Activités à Marseilles</h2>
+		<div id="sl"><h2>Activités à Marseilles</h2></div>
 		
 		<div id="activitées">
 			<section id="activitées1">
@@ -163,33 +174,38 @@
 					<img src="img/reno.jpg" alt="vieux_port"/>
 						<h3>Vieux Port</h3>
 				</div>
-
-				<div class="act">
-					<img src="img/paul.jpg" alt="fort_de_pomègues"/>
+				<div class="petiteimg">
+					<div class="act">
+						<img src="img/paul.jpg" alt="fort_de_pomègues"/>
 						<h3>Fort de Pomègues</h3>		
-				</div>
+					</div>
 
-				<div class="act">
-					<img src="img/kevin.jpg" alt="îles_du_frioul"/>
+					<div class="act">
+						<img src="img/kevin.jpg" alt="îles_du_frioul"/>
 						<h3>Îles du Frioul</h3>
+					</div>
+
 				</div>
+				
 			</section>
 
 			<section id="activitées2">
 				<div class="activ">
 					<img src="img/kilyaner.jpg" alt="parc_national_des_calanques"/>
-						<h3>Parc National des Calanques</h3>
+					<h3>Parc National des Calanques</h3>
 				</div>
-
-				<div class="act">
-					<img src="img/florian.jpg" alt="notre_dame_de_la_garde"/>
+				<div class="petiteimg">
+					<div class="act">
+						<img src="img/florian.jpg" alt="notre_dame_de_la_garde"/>
 						<h3>Notre-Dame-de-la-Garde</h3>
-				</div>
+					</div>
 
-				<div class="act">
-					<img src="img/lena.jpg" alt="parc_longchamp"/>
+					<div class="act">
+						<img src="img/lena.jpg" alt="parc_longchamp"/>
 						<h3>Parc Longchamp</h3>
+					</div>
 				</div>
+				
 			</section>
 		</div>
 	</aside>
