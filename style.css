@@ -41,10 +41,14 @@ li{
 	width: 30px;
 	text-align: center;
 }
+.fa-chart-line{
+	text-align: center;
+}
 
 #filtrage{ 
 	display: flex;
 	align-items: center;
+	margin-bottom: 30px;
 }
 
 .filtre{
@@ -65,6 +69,8 @@ li{
 
 h2{
 	padding-left: 40px;
+	margin-bottom: 14px;
+	margin-top: 43px;
 }
 
 #hebergements{
@@ -76,7 +82,7 @@ h2{
 }
 
 #populaires{
-	background-color: green;
+	background-color: silver;
 	flex: 1;
 	margin-right: 30px;
 	border-radius: 20px;
@@ -149,7 +155,9 @@ h2{
 }
 
 .navigation{
-	background-color: pink;
+	background-color: silver;
+	padding-left: 62px;
+	padding-right: 373px;
 }
 
 
@@ -175,25 +183,29 @@ h2{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-bottom: -163px;
 }
 
 .act{
-	margin-bottom: 50px;
+	margin-bottom: 137px;
 	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
 }
 
 .act img{
-	width: 324px;
-	height: 176px;
+	width: 427px;
+	height: 302px;
 	border-radius: 20px 20px 0px 0px;
-	margin: -13px;
+	margin-top: -50px;
+	margin-right: -74px;
+	margin-left: -33px;
+	margin-bottom: 2px;
 }
 
 .activ img{
-	width: 446px;
-	height: 660px;
+	width: 427px;
+	height: 604px;
 	border-radius: 20px 20px 0px 0px;
 }
 
@@ -203,17 +215,16 @@ h2{
 
 .activ{
 	box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
-	margin-right: 50px;
-	margin-left: 60px;
-	margin-bottom: 60px;
+	margin-right: 53px;
+	margin-left: 101px;
+	margin-bottom: 253px;
 	border-radius: 20px;
-	margin-bottom: 123px;
 }
 
 #activitées1{
 	display: flex;
 	flex-wrap: nowrap;
-	margin-left: -215px;
+	margin-left: -115px;
 }
 
 /*.act{
@@ -225,6 +236,79 @@ h2{
 #activitées2{
 	display: flex;
 	flex-wrap: nowrap;
+}
+
+.actif img{
+	width: 427px;
+	height: 156px;
+	border-radius: 20px 20px 0px 0px;
+	margin-top: 0px;
+	margin-right: -68px;
+	margin-left: 0px;
+	margin-bottom: 18px;
+}
+
+.actif{
+	box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
+	margin-top: 8px;
+	margin-right: -74px;
+	margin-left: -33px;
+	margin-bottom: 2px;
+	border-radius: 20px;
+}
+
+.paul img{
+	width: 427px;
+	height: 302px;
+	border-radius: 20px 20px 0px 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 9px;
+}
+
+.paul{
+	box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
+	margin-right: -74px;
+	margin-left: -33px;
+	margin-bottom: 93px;
+	border-radius: 20px;
+}
+
+.lena img{
+	width: 427px;
+	height: 302px;
+	border-radius: 20px 20px 0px 0px;
+	margin-top: 0px;
+	margin-right: -74px;
+	margin-left: 0px;
+	margin-bottom: 18px;
+}
+
+.lena{
+	box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
+	margin-right: 2px;
+	margin-left: -27px;
+	margin-bottom: 74px;
+	margin-top: 100px;
+	border-radius: 20px;
+}
+
+.florian img{
+	width: 427px;
+	height: 156px;
+	border-radius: 20px 20px 0px 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 2px;
+}
+
+.florian{
+	box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
+	border-radius: 20px;
+	margin-left: -27px;
+	margin-right: 1px;
 }
 
 footer{
