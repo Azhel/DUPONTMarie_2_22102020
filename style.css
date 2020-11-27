@@ -25,7 +25,7 @@ li{
 
 #btn{
 	background-color: #0065FC;
-	border: 1px solid #0065FC;
+	border: 1px silver;/*#0065FC à voir*/
 	border-radius: 0px 10px 10px 0px;
 	color: white;
 }
@@ -35,7 +35,7 @@ li{
 }
 
 .fa-map-marker-alt{
-	border: 1px solid #F2F2F2;
+	border: 1px solid silver;
 	background-color: #F2F2F2;
 	border-radius: 10px 0px 0px 10px;
 	width: 30px;
