@@ -334,9 +334,8 @@ footer{
 	/*Résolution inférieur à px*/
 @media all and (max-width: 480px)
 {
-	/body{
+	body{
 		width: 480px;
-		/*margin: auto;*/
 	}
 
 	nav{
