@@ -16,11 +16,25 @@ ul#menu{
 }
 
 #menu li{
-	padding-left: 50px
+	padding-left: 50px;
+	
 }
 
 li{
 	list-style-type: none;
+}
+
+a{
+	color: blue;
+	text-decoration:none;
+}
+
+a:hover{
+	color: red;
+}
+
+p{
+	font-weight: bold; 
 }
 
 #btn{
@@ -42,7 +56,7 @@ li{
 	text-align: center;
 }
 .fa-chart-line{
-	text-align: center;
+	color: black;
 }
 
 #filtrage{ 
@@ -257,7 +271,7 @@ h2{
 	border-radius: 20px;
 }
 
-.paul img{
+.pomègues img{
 	width: 427px;
 	height: 302px;
 	border-radius: 20px 20px 0px 0px;
@@ -267,7 +281,7 @@ h2{
 	margin-bottom: 9px;
 }
 
-.paul{
+.pomègues{
 	box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
 	margin-right: -74px;
 	margin-left: -33px;
@@ -275,7 +289,7 @@ h2{
 	border-radius: 20px;
 }
 
-.lena img{
+.longchamp img{
 	width: 427px;
 	height: 302px;
 	border-radius: 20px 20px 0px 0px;
@@ -285,7 +299,7 @@ h2{
 	margin-bottom: 18px;
 }
 
-.lena{
+.longchamp{
 	box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
 	margin-right: 2px;
 	margin-left: -27px;
@@ -294,7 +308,7 @@ h2{
 	border-radius: 20px;
 }
 
-.florian img{
+.notredame img{
 	width: 427px;
 	height: 156px;
 	border-radius: 20px 20px 0px 0px;
@@ -304,7 +318,7 @@ h2{
 	margin-bottom: 2px;
 }
 
-.florian{
+.notredame{
 	box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
 	border-radius: 20px;
 	margin-left: -27px;
@@ -318,19 +332,18 @@ footer{
 
 
 	/*Résolution inférieur à px*/
-@media screen and (max-width: 760px)
+@media all and (max-width: 480px)
 {
-	body{
-		width: 760px;
+	/body{
+		width: 480px;
+		/*margin: auto;*/
 	}
-	#activitées1{
+
+	nav{
+		width: auto;
+		text-align: left;
+		display: flex;
 		flex-wrap: wrap;
 	}
-	#activitées1 img{
-		width: 240px;
 
-	}
-	.activ{
-		margin-left: 0px;
-	}
 }
